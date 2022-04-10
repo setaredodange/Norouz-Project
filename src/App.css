@@ -1,0 +1,259 @@
+/* DESKTOP */
+@media only screen and (min-width: 800px) {
+  .App {
+    text-align: center;
+    font-family: iranyekanwebboldfanum;
+    background-color: white;
+    height: 100vh;
+    background-image: url("./img/pexels-pixabay-355770.jpg");
+    background-position: top;
+    background-size: cover;
+    height: 100vh;
+  }
+
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+  .App-link {
+    color: #61dafb;
+  }
+
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .editbutton {
+    margin-left: 8px;
+    background-color: transparent;
+    border-radius: 10px;
+    color: rgba(0, 128, 0, 0.719);
+    cursor: pointer;
+    border: none;
+    transition: background 0.3s;
+    font-size: 20px;
+  }
+  .editbutton:hover {
+    background-color: rgba(0, 128, 0, 0.719);
+    color: white;
+  }
+  .deletebutton {
+    margin-left: 8px;
+    background-color: transparent;
+    border-radius: 10px;
+    color: red;
+    cursor: pointer;
+    border: none;
+    transition: background 0.3s;
+    font-size: 20px;
+  }
+
+  .deletebutton:hover {
+    background-color: red;
+    color: white;
+  }
+
+  .takmilnist {
+    margin-left: 8px;
+    background-color: transparent;
+    border-radius: 10px;
+    color: red;
+    border: none;
+    transition: background 0.3s;
+    font-size: 10px;
+  }
+  .userAreaEdit {
+    width: 100%;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    text-align: right;
+    
+    
+    
+    background-color: #f8f8f8;
+    font-size: 14px;
+    resize: none;
+  }
+  .userArea {
+    width: 30%;
+    margin-right: 5px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 14px;
+    resize: none;
+  }
+  .titleArea {
+    width: 40%;
+    margin-right: 20px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 14px;
+    resize: none;
+  }
+
+  .textArea {
+    width: 100%;
+    height: 70px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 14px;
+    resize: none;
+    margin-top: 5px;
+  }
+}
+
+/* MOBILE */
+@media only screen and (max-width: 800px) {
+  .App {
+    text-align: center;
+    font-family: iranyekanwebboldfanum;
+    background-color: white;
+    height: 100vh;
+    background-image: url("./img/pexels-pixabay-355770.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+  }
+
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+  .App-link {
+    color: #61dafb;
+  }
+
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .editbutton {
+    margin-left: 8px;
+    background-color: transparent;
+    border-radius: 10px;
+    color: rgba(0, 128, 0, 0.719);
+    cursor: pointer;
+    border: none;
+    transition: background 0.3s;
+    font-size: 15px;
+  }
+  .editbutton:hover {
+    background-color: rgba(0, 128, 0, 0.719);
+    color: white;
+  }
+  .deletebutton {
+    margin-left: 8px;
+    background-color: transparent;
+    border-radius: 10px;
+    color: red;
+    cursor: pointer;
+    border: none;
+    transition: background 0.3s;
+    font-size: 15px;
+  }
+
+  .deletebutton:hover {
+    background-color: red;
+    color: white;
+  }
+
+  .takmilnist {
+    margin-left: 8px;
+    background-color: transparent;
+    border-radius: 10px;
+    color: red;
+    border: none;
+    transition: background 0.3s;
+    font-size: 11px;
+    text-align: start;
+  }
+
+  .userArea {
+    width: 30%;
+    margin-right: 5px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 14px;
+    resize: none;
+  }
+  .titleArea {
+    width: 40%;
+    margin-right: 20px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 14px;
+    resize: none;
+  }
+
+  .textArea {
+    width: 100%;
+    height: 70px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 14px;
+    resize: none;
+    margin-top: 5px;
+  }
+}
